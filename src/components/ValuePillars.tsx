@@ -17,14 +17,14 @@ export function ValuePillars() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-12">
       {PILLARS.map((p, i) => (
-        <div key={p.title} className="space-y-4 border-t border-[#0D1B2A]/15 pt-8">
-          <div className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+        <div key={p.title} className="space-y-4 border-t border-[#C5A267]/15 pt-8">
+          <div className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
             0{i + 1} · Differentiator
           </div>
-          <h3 className="font-serif text-2xl md:text-3xl text-[#0D1B2A] leading-tight">
+          <h3 className="font-serif text-2xl md:text-3xl text-[#FDFCFB] leading-tight">
             {p.title}
           </h3>
-          <p className="text-sm text-[#0D1B2A]/70 leading-relaxed">{p.body}</p>
+          <p className="text-sm text-[#FDFCFB]/70 leading-relaxed">{p.body}</p>
         </div>
       ))}
     </div>

@@ -32,11 +32,11 @@ function ContactPage() {
     <SectionShell>
       <div className="space-y-12">
         <div className="max-w-2xl space-y-4">
-          <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+          <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
             The Boardroom
           </p>
           <h1
-            className="font-serif text-[#0D1B2A] leading-[1.1]"
+            className="font-serif text-[#FDFCFB] leading-[1.1]"
             style={{ fontSize: "clamp(2rem, 4.5vw, 3.5rem)" }}
           >
             A private channel into the practice.
@@ -49,22 +49,22 @@ function ContactPage() {
             <VancouverClock />
 
             <div className="space-y-2">
-              <p className="text-[10px] tracking-[0.28em] uppercase text-[#0D1B2A]/55">
+              <p className="text-[10px] tracking-[0.28em] uppercase text-[#FDFCFB]/55">
                 Direct Line
               </p>
               <a
                 href={SITE.phoneHref}
-                className="block font-serif text-3xl md:text-4xl text-[#0D1B2A] hover:text-[#C9A84C] transition-colors"
+                className="block font-serif text-3xl md:text-4xl text-[#FDFCFB] hover:text-[#C5A267] transition-colors"
               >
                 {SITE.phone}
               </a>
             </div>
 
-            <div className="space-y-2 border-t border-[#0D1B2A]/10 pt-6">
-              <p className="text-[10px] tracking-[0.28em] uppercase text-[#0D1B2A]/55">
+            <div className="space-y-2 border-t border-[#C5A267]/10 pt-6">
+              <p className="text-[10px] tracking-[0.28em] uppercase text-[#FDFCFB]/55">
                 Office
               </p>
-              <p className="text-sm text-[#0D1B2A] leading-relaxed">
+              <p className="text-sm text-[#FDFCFB] leading-relaxed">
                 Avi Sanan, REALTOR®<br />
                 {SITE.brokerage}<br />
                 {SITE.address.street}<br />
@@ -72,25 +72,25 @@ function ContactPage() {
               </p>
             </div>
 
-            <div className="space-y-3 border-t border-[#0D1B2A]/10 pt-6">
-              <p className="text-[10px] tracking-[0.28em] uppercase text-[#0D1B2A]/55">
+            <div className="space-y-3 border-t border-[#C5A267]/10 pt-6">
+              <p className="text-[10px] tracking-[0.28em] uppercase text-[#FDFCFB]/55">
                 Verified Channels
               </p>
-              <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#0D1B2A]/80 hover:text-[#C9A84C]">
+              <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#FDFCFB]/80 hover:text-[#C5A267]">
                 Instagram · {SITE.instagramHandle}
               </a>
-              <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#0D1B2A]/80 hover:text-[#C9A84C]">
+              <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#FDFCFB]/80 hover:text-[#C5A267]">
                 LinkedIn · {SITE.linkedinHandle}
               </a>
-              <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#0D1B2A]/80 hover:text-[#C9A84C]">
+              <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="block text-sm text-[#FDFCFB]/80 hover:text-[#C5A267]">
                 WhatsApp · Text Avi
               </a>
             </div>
           </div>
 
           {/* RIGHT */}
-          <div className="bg-white border border-[#0D1B2A]/10 p-6 md:p-10 space-y-8">
-            <div className="flex border-b border-[#0D1B2A]/10">
+          <div className="bg-[#0A1221] border border-[#C5A267]/10 p-6 md:p-10 space-y-8">
+            <div className="flex border-b border-[#C5A267]/10">
               <TabBtn active={mode === "call"} onClick={() => setMode("call")}>
                 Schedule Private Call
               </TabBtn>
@@ -170,8 +170,8 @@ function TabBtn({
       className={cn(
         "flex-1 min-h-11 px-2 py-4 text-[10px] tracking-[0.22em] uppercase transition-colors border-b -mb-px",
         active
-          ? "text-[#0D1B2A] border-[#C9A84C]"
-          : "text-[#0D1B2A]/50 border-transparent hover:text-[#0D1B2A]",
+          ? "text-[#FDFCFB] border-[#C5A267]"
+          : "text-[#FDFCFB]/50 border-transparent hover:text-[#FDFCFB]",
       )}
     >
       {children}

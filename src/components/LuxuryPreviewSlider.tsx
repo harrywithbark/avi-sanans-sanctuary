@@ -25,10 +25,10 @@ export function LuxuryPreviewSlider() {
     <div className="space-y-8">
       <div className="flex items-end justify-between gap-6">
         <div className="space-y-3">
-          <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+          <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
             Signature Portfolio · $2M+
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#0D1B2A] leading-tight max-w-xl">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-[#FDFCFB] leading-tight max-w-xl">
             Active luxury holdings across the Lower Mainland.
           </h2>
         </div>
@@ -71,7 +71,7 @@ export function LuxuryPreviewSlider() {
             key={i}
             className={
               "h-px w-8 transition-colors " +
-              (i === selected ? "bg-[#C9A84C]" : "bg-[#0D1B2A]/20")
+              (i === selected ? "bg-[#C5A267]" : "bg-[#0A1221]/20")
             }
           />
         ))}

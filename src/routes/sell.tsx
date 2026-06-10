@@ -45,17 +45,17 @@ function SellPage() {
       <SectionShell className="!py-0" bg="muted">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[calc(100vh-220px)]">
           <div className="flex flex-col justify-center py-16 md:py-24 pr-0 lg:pr-12 space-y-6 md:space-y-8">
-            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
               The Asset Marketing Masterclass
             </p>
             <h1
-              className="font-serif text-[#0D1B2A] leading-[1.05]"
+              className="font-serif text-[#FDFCFB] leading-[1.05]"
               style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}
             >
               Homes Above $2M Are Not Just Listed.{" "}
               <em className="italic">They Are Engineered for the Market.</em>
             </h1>
-            <p className="text-sm md:text-base text-[#0D1B2A]/70 leading-relaxed max-w-[60ch]">
+            <p className="text-sm md:text-base text-[#FDFCFB]/70 leading-relaxed max-w-[60ch]">
               A degree in Commerce and advanced marketing analytics means your home's
               presentation isn't left to guesswork. We combine algorithmic demographic
               targeting with flawless visual staging to put your property in front of
@@ -77,10 +77,10 @@ function SellPage() {
       <SectionShell>
         <div className="space-y-12">
           <div className="max-w-xl space-y-4">
-            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
               Marketing Execution Matrix
             </p>
-            <h2 className="font-serif text-3xl md:text-5xl text-[#0D1B2A] leading-tight">
+            <h2 className="font-serif text-3xl md:text-5xl text-[#FDFCFB] leading-tight">
               Three vectors. One competitive narrative.
             </h2>
           </div>
@@ -90,16 +90,16 @@ function SellPage() {
                 key={c.title}
                 className={
                   "p-8 lg:p-10 space-y-5 " +
-                  (i > 0 ? "md:border-l md:border-[#C9A84C]/40" : "")
+                  (i > 0 ? "md:border-l md:border-[#C5A267]/40" : "")
                 }
               >
-                <p className="text-[10px] tracking-[0.3em] uppercase text-[#C9A84C]">
+                <p className="text-[10px] tracking-[0.3em] uppercase text-[#C5A267]">
                   {c.label}
                 </p>
-                <h3 className="font-serif text-2xl text-[#0D1B2A] leading-tight">
+                <h3 className="font-serif text-2xl text-[#FDFCFB] leading-tight">
                   {c.title}
                 </h3>
-                <p className="text-sm text-[#0D1B2A]/70 leading-relaxed">{c.body}</p>
+                <p className="text-sm text-[#FDFCFB]/70 leading-relaxed">{c.body}</p>
               </div>
             ))}
           </div>
@@ -110,13 +110,13 @@ function SellPage() {
       <SectionShell>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <h2
-            className="font-serif text-[#0D1B2A] leading-[1.1]"
+            className="font-serif text-[#FDFCFB] leading-[1.1]"
             style={{ fontSize: "clamp(1.75rem, 3.5vw, 3rem)" }}
           >
             Uncompromising contractual alignment shields your equity during high-stakes
             transaction loops.
           </h2>
-          <p className="text-base text-[#0D1B2A]/75 leading-relaxed">
+          <p className="text-base text-[#FDFCFB]/75 leading-relaxed">
             We don't just showcase your property to the open market — we negotiate with a
             strict focus on corporate holdings, sophisticated tax timelines, and protective
             clauses. By managing asset presentation with corporate professionalism,
@@ -130,17 +130,17 @@ function SellPage() {
       <SectionShell bg="muted">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-4 space-y-4">
-            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
               Private Valuation
             </p>
-            <h2 className="font-serif text-3xl md:text-4xl text-[#0D1B2A] leading-tight">
+            <h2 className="font-serif text-3xl md:text-4xl text-[#FDFCFB] leading-tight">
               Authorize a private valuation analysis.
             </h2>
-            <p className="text-sm text-[#0D1B2A]/70 leading-relaxed">
+            <p className="text-sm text-[#FDFCFB]/70 leading-relaxed">
               Confidential, complimentary, and returned within 72 hours.
             </p>
           </div>
-          <div className="lg:col-span-8 bg-white border border-[#0D1B2A]/10 p-6 md:p-10">
+          <div className="lg:col-span-8 bg-[#0A1221] border border-[#C5A267]/10 p-6 md:p-10">
             <IntakeForm
               schema={sellSchema}
               submitLabel="Authorize Private Valuation Analysis"

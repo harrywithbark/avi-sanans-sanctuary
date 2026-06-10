@@ -7,14 +7,14 @@ export function VancouverClock() {
     return () => clearInterval(id);
   }, []);
   return (
-    <div className="inline-flex items-center gap-3 text-[11px] tracking-[0.22em] uppercase text-[#0D1B2A]/70">
+    <div className="inline-flex items-center gap-3 text-[11px] tracking-[0.22em] uppercase text-[#FDFCFB]/70">
       <span className="relative flex h-2.5 w-2.5">
         <span className="absolute inset-0 rounded-full bg-emerald-500 animate-soft-pulse" />
         <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" />
       </span>
       <span>
         Avi's Desk is Active · Vancouver{" "}
-        <span className="text-[#0D1B2A] font-medium tabular-nums">{time}</span>
+        <span className="text-[#FDFCFB] font-medium tabular-nums">{time}</span>
       </span>
     </div>
   );

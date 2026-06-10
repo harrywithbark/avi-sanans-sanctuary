@@ -82,7 +82,7 @@ export function IntakeForm({
               {layout !== "inline" && (
                 <label
                   htmlFor={inputId}
-                  className="block text-[10px] tracking-[0.24em] uppercase text-[#0D1B2A]/60 mb-2"
+                  className="block text-[10px] tracking-[0.24em] uppercase text-[#FDFCFB]/60 mb-2"
                 >
                   {f.label}
                 </label>

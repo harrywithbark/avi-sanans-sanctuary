@@ -26,8 +26,8 @@ export function ListingCard({
   return (
     <article
       className={
-        "group bg-white border border-[#0D1B2A]/10 transition-colors " +
-        (selected ? "border-[#C9A84C]" : "hover:border-[#0D1B2A]/30")
+        "group bg-[#0A1221] border border-[#C5A267]/10 transition-colors " +
+        (selected ? "border-[#C5A267]" : "hover:border-[#C5A267]/30")
       }
     >
       <button
@@ -40,22 +40,22 @@ export function ListingCard({
           ratio="16/10"
           label={`ASSET CANVAS · ${listing.region.toUpperCase()}`}
           description={listing.description}
-          className="border-0 border-b border-[#0D1B2A]/10"
+          className="border-0 border-b border-[#C5A267]/10"
         />
       </button>
       <div className="p-5 md:p-6 space-y-4">
         <div className="flex items-center justify-between gap-3">
-          <h3 className="font-sans text-[11px] tracking-[0.24em] uppercase text-[#0D1B2A]">
+          <h3 className="font-sans text-[11px] tracking-[0.24em] uppercase text-[#FDFCFB]">
             {listing.location}
           </h3>
-          <span className="text-[9px] tracking-[0.28em] uppercase text-[#C9A84C]">
+          <span className="text-[9px] tracking-[0.28em] uppercase text-[#C5A267]">
             {tag}
           </span>
         </div>
-        <p className="text-xs md:text-sm font-light text-[#0D1B2A]/70">
+        <p className="text-xs md:text-sm font-light text-[#FDFCFB]/70">
           {listing.attributes}
         </p>
-        <p className="font-serif italic text-base text-[#0D1B2A]">Price Upon Request</p>
+        <p className="font-serif italic text-base text-[#FDFCFB]">Price Upon Request</p>
         <button type="button" className="cta-navy w-full" aria-label={cta}>
           {cta}
         </button>

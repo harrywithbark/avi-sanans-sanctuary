@@ -14,10 +14,10 @@ export function SectionShell({
 }) {
   const bgClass =
     bg === "muted"
-      ? "bg-[#F4F6F8]"
+      ? "bg-[#070E1A]"
       : bg === "navy"
-      ? "bg-[#0D1B2A] text-white"
-      : "bg-white";
+      ? "bg-[#0A1221] text-white"
+      : "bg-[#0A1221]";
   return (
     <Tag className={cn("w-full", bgClass)}>
       <div

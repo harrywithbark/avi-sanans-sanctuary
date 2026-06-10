@@ -33,16 +33,16 @@ function AboutPage() {
             />
           </div>
           <div className="lg:col-span-7 space-y-8">
-            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+            <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
               The Advisor
             </p>
             <h1
-              className="font-serif text-[#0D1B2A] leading-[1.1]"
+              className="font-serif text-[#FDFCFB] leading-[1.1]"
               style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}
             >
               Bridging Analytical Commerce with Modern Property Placement.
             </h1>
-            <div className="space-y-5 text-base text-[#0D1B2A]/75 leading-relaxed max-w-[64ch]">
+            <div className="space-y-5 text-base text-[#FDFCFB]/75 leading-relaxed max-w-[64ch]">
               <p>
                 Avi Sanan brings a sharp combination of technical business training and
                 deep regional intelligence to the Lower Mainland real estate landscape.
@@ -70,14 +70,14 @@ function AboutPage() {
           </div>
           <div className="lg:col-span-8 space-y-12">
             <div className="space-y-4">
-              <p className="text-[10px] tracking-[0.32em] uppercase text-[#C9A84C]">
+              <p className="text-[10px] tracking-[0.32em] uppercase text-[#C5A267]">
                 Approach
               </p>
-              <h2 className="font-serif text-3xl md:text-4xl text-[#0D1B2A] leading-tight">
+              <h2 className="font-serif text-3xl md:text-4xl text-[#FDFCFB] leading-tight">
                 A boutique operating model.
               </h2>
             </div>
-            <div className="space-y-6 text-base text-[#0D1B2A]/75 leading-relaxed">
+            <div className="space-y-6 text-base text-[#FDFCFB]/75 leading-relaxed">
               <p>
                 Each engagement is treated as an institutional mandate. Calendars are
                 deliberately constrained so that every active client receives the depth of
