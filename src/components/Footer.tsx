@@ -9,24 +9,21 @@ const BADGES = [
 
 export function Footer() {
   return (
-    <footer
-      className="relative overflow-hidden text-[#FDFCFB]"
-      style={{ background: "var(--gradient-footer)" }}
-    >
+    <footer className="relative overflow-hidden text-[#FDFCFB] footer-glass">
       {/* top gold hairline */}
       <div className="absolute top-0 left-0 right-0 h-px animate-hairline" style={{ background: "var(--gradient-hairline)" }} />
 
       {/* soft gold orb glow */}
-      <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full opacity-30 blur-3xl" style={{ background: "radial-gradient(circle, rgba(197,162,103,0.45), transparent 70%)" }} />
-      <div className="pointer-events-none absolute -bottom-40 -left-32 h-96 w-96 rounded-full opacity-25 blur-3xl" style={{ background: "radial-gradient(circle, rgba(18,26,42,0.9), transparent 70%)" }} />
+      <div className="pointer-events-none absolute -top-32 -right-32 h-96 w-96 rounded-full opacity-20 blur-3xl" style={{ background: "radial-gradient(circle, rgba(197,162,103,0.5), transparent 70%)" }} />
+      <div className="pointer-events-none absolute -bottom-40 -left-32 h-96 w-96 rounded-full opacity-15 blur-3xl" style={{ background: "radial-gradient(circle, rgba(25,55,95,0.6), transparent 70%)" }} />
 
       <div className="relative max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-16 py-16 md:py-24">
         <Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 pb-14 border-b border-[#C5A267]/15">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 pb-14 border-b border-[#C5A267]/12">
             {BADGES.map((b, i) => (
               <div
                 key={b}
-                className="aspect-[5/2] border border-[#C5A267]/25 flex items-center justify-center text-center px-4 bg-[#0A1221]/40 backdrop-blur-sm hover:border-[#C5A267]/60 transition-colors"
+                className="aspect-[5/2] flex items-center justify-center text-center px-4 footer-badge-glass"
                 style={{ animationDelay: `${i * 90}ms` }}
               >
                 <span className="text-[10px] tracking-[0.36em] uppercase text-[#C5A267]">
